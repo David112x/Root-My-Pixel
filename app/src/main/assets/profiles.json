@@ -1,0 +1,44 @@
+{
+  "profiles": [
+    {
+      "profileId": "mustang-CP2A.260705.006",
+      "codename": "mustang",
+      "kernelRelease": "6.6.118-android15-8",
+      "buildDisplay": "CP2A.260705.006",
+      "exploitAsset": "exploits/mustang-CP2A.260705.006.so",
+      "kmi": "android15-6.6"
+    },
+    {
+      "profileId": "frankel-CP2A.260605.012",
+      "codename": "frankel",
+      "kernelRelease": "6.6.89",
+      "buildDisplay": "CP2A.260605.012",
+      "exploitAsset": "exploits/frankel-CP2A.260605.012.so",
+      "kmi": "android15-6.6"
+    },
+    {
+      "profileId": "blazer-CP2A.260605.012",
+      "codename": "blazer",
+      "kernelRelease": "6.6.89",
+      "buildDisplay": "CP2A.260605.012",
+      "exploitAsset": "exploits/blazer-CP2A.260605.012.so",
+      "kmi": "android15-6.6"
+    },
+    {
+      "profileId": "rango-CP2A.260605.012",
+      "codename": "rango",
+      "kernelRelease": "6.6.89",
+      "buildDisplay": "CP2A.260605.012",
+      "exploitAsset": "exploits/rango-CP2A.260605.012.so",
+      "kmi": "android15-6.6"
+    },
+    {
+      "profileId": "stallion-CP2A.260605.012",
+      "codename": "stallion",
+      "kernelRelease": "6.6.89",
+      "buildDisplay": "CP2A.260605.012",
+      "exploitAsset": "exploits/stallion-CP2A.260605.012.so",
+      "kmi": "android15-6.6"
+    }
+  ]
+}
