@@ -17,6 +17,8 @@
     <string name="action_done">Done</string>
     <string name="action_soft_reboot">Soft Reboot (Userspace)</string>
     <string name="action_export_log">Export exploit.log</string>
+    <string name="action_copy_log">Copy log</string>
+    <string name="copied_to_clipboard">Log copied to clipboard</string>
     <string name="install_mode_full">Full install (ReSukiSU)</string>
     <string name="install_mode_permissive">Permissive only</string>
 
