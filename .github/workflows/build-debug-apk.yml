@@ -38,18 +38,19 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          # compileSdk 37 requires platform android-37; matching build-tools and NDK are installed
-          # automatically for AGP 9.3.x.
+          # compileSdk 37 requires platform android-37
           api-level: 37
-          build-tools-version: '36.0.0'
-          ndk-version: '27.0.12077973'
-          cmake-version: '3.22.1'
           cache: true
 
-      - name: Write local.properties
+      - name: Install NDK required by AGP 9.3.1
+        # AGP 9.3.1 uses NDK 28.2.13676358 as default android.ndkVersion.
+        # GitHub runners pre-install a different NDK and export ANDROID_NDK_HOME to it,
+        # so install the exact version AGP wants and point ANDROID_NDK_HOME at it.
         run: |
-          echo "sdk.dir=$ANDROID_HOME" >> local.properties
-          echo "ndk.dir=$ANDROID_NDK_HOME" >> local.properties
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses > /dev/null 2>&1 || true
+          "$SDKMANAGER" --install "ndk;28.2.13676358"
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/28.2.13676358" >> "$GITHUB_ENV"
 
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
