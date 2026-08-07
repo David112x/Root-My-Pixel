@@ -35,13 +35,13 @@ Root My Pixel lets you *temporarily* gain root access with ReSukiSU in just one 
 
 ## Supported Devices & Build Profiles
 
-| Device | Codename | Supported Build | Kernel KMI | Tested
-| :--- | :--- | :--- | :--- | :--- |
-| **Pixel 10** | `frankel` | `CP2A.260605.012` | `android15-6.6` | ⏳
-| **Pixel 10 Pro** | `blazer` | `CP2A.260605.012` | `android15-6.6` | ⏳
-| **Pixel 10 Pro XL** | `mustang` | `CP2A.260705.006` | `android15-6.6` | ✅
-| **Pixel 10 Pro Fold** | `rango` | `CP2A.260605.012` | `android15-6.6` | ⏳
-| **Pixel 10a** | `stallion` | `CP2A.260605.012` | `android15-6.6` | ⏳
+| Device                | Codename   | Supported Build   | Kernel KMI      | Tested |
+|:----------------------|:-----------|:------------------|:----------------|:-------|
+| **Pixel 10**          | `frankel`  | `CP2A.260705.006` | `android15-6.6` | ⏳      |
+| **Pixel 10 Pro**      | `blazer`   | `CP2A.260705.006` | `android15-6.6` | ✅      |
+| **Pixel 10 Pro XL**   | `mustang`  | `CP2A.260705.006` | `android15-6.6` | ✅      |
+| **Pixel 10 Pro Fold** | `rango`    | `CP2A.260705.006` | `android15-6.6` | ✅      |
+| **Pixel 10a**         | `stallion` | `CP2A.260705.006` | `android15-6.6` | ⏳      |
 
 ---
 
