@@ -42,11 +42,12 @@ else
 fi
 CC="$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/$HOST_PLATFORM/bin/aarch64-linux-android35-clang"
 
-# ── Pixel 10 family targets ─────────────────────────────────
+# ── Supported devices targets ─────────────────────────────────
 TARGETS=(
   "blazer-CP2A.260705.006"    # Pixel 10 Pro
   "mustang-CP2A.260705.006"   # Pixel 10 Pro XL
   "rango-CP2A.260705.006"     # Pixel 10 Pro Fold
+  "lynx-CP2A.260605.012"      # Pixel 7a
 )
 
 echo ""
